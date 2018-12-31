@@ -7,7 +7,7 @@ function getIt() {
 }
 
 function frameIt() {
-  var eLoad = $('img').className = 'tasty';
+  $('img').addClass('tasty');
 }
 
 $(document).ready(function(){

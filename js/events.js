@@ -16,6 +16,10 @@ function submitIt() {
   })
 }
 
+function pressIt() {
+  $('input')
+}
+
 $(document).ready(function(){
   getIt();
   frameIt();
